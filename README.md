@@ -58,9 +58,47 @@ Não é só automação de processos, nem só criação de apps → é uma **pla
 
 ## 5. Buy vs. Build
 
-- **Buy:** rapidez, suporte, menor curva de adoção
-- **Build:** flexibilidade, controle, sem lock-in
-- Avaliar **TCO** (custo total de propriedade), tempo de implementação e manutenção
+O conceito de **Buy or Build** refere-se à decisão estratégica que uma organização precisa tomar ao avaliar se deve **comprar** uma solução pronta ou **desenvolver internamente** com seus próprios recursos.
+
+### 5.1 Comprar (Buy)
+
+**Vantagens**
+
+- Implementação mais rápida
+- Menor risco técnico
+- Suporte e atualizações garantidos
+- Permite foco no core business
+
+**Desvantagens**
+
+- Menor flexibilidade para personalizações
+- Dependência de terceiros (vendor lock-in)
+- Custos recorrentes (licenciamento, manutenção, suporte)
+
+### 5.2 Construir (Build)
+
+**Vantagens**
+
+- Total controle sobre funcionalidades e evolução
+- Personalização completa, adaptada às necessidades específicas
+- Pode gerar vantagem competitiva exclusiva
+
+**Desvantagens**
+
+- Maior tempo de desenvolvimento
+- Riscos técnicos e de projeto
+- Necessidade de equipe altamente qualificada
+- Custos iniciais mais elevados
+
+### 5.3 Critérios de Decisão
+
+A escolha entre comprar ou construir depende de fatores como:
+
+- Urgência da necessidade
+- Complexidade da solução
+- Recursos disponíveis (tempo, equipe, orçamento)
+- Estratégia de longo prazo
+- Nível de diferenciação desejado
 
 ## 6. Open Source vs. Proprietário
 
