@@ -1,6 +1,8 @@
+<p align="center"><img src="./files/contabilizei.svg" width="400" alt="Clube Vestcasa Logo"></p>
+
 # 📊 Projeto: Democratizando Dados com IA
 
-_Case Contabilizei – EI DISCOVERY: INFO-4-ALL FIAP 2025_
+Case Contabilizei – EI DISCOVERY: INFO-4-ALL FIAP 2025\_
 
 ---
 

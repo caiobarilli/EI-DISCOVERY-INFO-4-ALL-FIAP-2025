@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação do Projeto | Democratizando Dados com IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Melhora a renderização da fonte na maioria dos navegadores */
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+    <!-- Menu de Navegação -->
+    <nav class="fixed top-0 left-0 z-50 w-full bg-white border-b shadow-md border-slate-200">
+        <div class="container flex items-center justify-between px-4 py-3 mx-auto sm:px-6 lg:px-8">
+            <a href="#" class="text-xl font-bold text-[#002868]">Info4All</a>
+
+            <!-- Botão mobile -->
+            <button id="menu-toggle" class="block md:hidden text-slate-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+
+            <!-- Links desktop -->
+            <ul class="hidden space-x-6 text-sm font-semibold md:flex text-slate-700">
+                <li><a href="#missao" class="hover:text-[#002868]">Missão</a></li>
+                <li><a href="#proposta" class="hover:text-[#002868]">Proposta</a></li>
+                <li><a href="#arquitetura" class="hover:text-[#002868]">Arquitetura</a></li>
+                <li><a href="#usuarios" class="hover:text-[#002868]">Usuários</a></li>
+                <li><a href="#ferramentas-interativas-dashboard" class="hover:text-[#002868]">Dashboard</a></li>
+            </ul>
+        </div>
+
+        <!-- Links mobile -->
+        <div id="menu-mobile" class="hidden px-4 pb-3 md:hidden">
+            <ul class="flex flex-col space-y-3 text-slate-700">
+                <li><a href="#missao" class="hover:text-[#002868]">Missão</a></li>
+                <li><a href="#proposta" class="hover:text-[#002868]">Proposta</a></li>
+                <li><a href="#arquitetura" class="hover:text-[#002868]">Arquitetura</a></li>
+                <li><a href="#usuarios" class="hover:text-[#002868]">Usuários</a></li>
+                <li><a href="#ferramentas-interativas-dashboard" class="hover:text-[#002868]">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container p-4 mx-auto sm:p-6 lg:p-8">
+        <header class="py-10 text-center border-b border-slate-200">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-[#002868]">Democratizando Dados com IA</h1>
+            <p class="mt-4 text-lg font-semibold text-slate-600">Projeto Contabilizei</p>
+        </header>
+
+        <main class="max-w-5xl mx-auto mt-10 space-y-16">
+            <section id="missao">
+                <div class="p-8 bg-white border shadow-lg rounded-xl border-slate-100">
+                    <h2 class="text-3xl font-bold text-[#002868] mb-4">Nossa Missão & Expectativa</h2>
+                    <div class="space-y-6 leading-relaxed text-slate-700">
+                        <p>
+                            <strong class="text-[#002868]">Missão:</strong> Como uma empresa baseada em dados, nossa
+                            meta é consolidar informações de diversas fontes em um data lake centralizado. O time de
+                            dados constrói pipelines e tabelas processadas para resolver problemas de negócio críticos.
+                            Queremos capacitar as áreas usuárias com autonomia para que realizem consultas eficientes,
+                            análises de dados e criação de gráficos de maneira totalmente intuitiva.
+                        </p>
+                        <p>
+                            <strong class="text-[#002868]">Expectativa:</strong> Desenvolver uma solução de inteligência
+                            artificial que permita acesso intuitivo aos dados através de linguagem natural (português),
+                            fornecendo respostas acionáveis (gráficos e insights automáticos) e, consequentemente,
+                            reduzindo a dependência dos times técnicos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="proposta">
+                <h2 class="text-3xl font-bold text-center text-[#002868]">A Proposta: Agentes Inteligentes e Explicador
+                    de Dados</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-center text-slate-600">Nossa solução une agentes especializados
+                    que geram visualizações e um sistema de explicação automatizada para interpretar os dados, tornando
+                    a análise completa e acessível.</p>
+                <div class="grid grid-cols-1 gap-8 mt-10 md:grid-cols-3">
+                    <div
+                        class="p-6 transition-shadow bg-white border shadow-md rounded-xl hover:shadow-xl border-slate-100">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-[#002868] p-3 rounded-full">
+                                <svg class="w-6 h-6 text-[#04f7f7]" xmlns="http://www.w3.org/2000/svg" stroke="#04f7f7"
+                                    stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" fill="none"
+                                    color="#04f7f7">
+                                    <title id="dolarIconTitle">Dolar</title>
+                                    <path
+                                        d="M12 4L12 6M12 18L12 20M15.5 8C15.1666667 6.66666667 14 6 12 6 9 6 8.5 7.95652174 8.5 9 8.5 13.140327 15.5 10.9649412 15.5 15 15.5 16.0434783 15 18 12 18 10 18 8.83333333 17.3333333 8.5 16" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[#002868]">Agente de Vendas</h3>
+                        </div>
+                        <p class="mt-4 text-slate-600">Gera gráficos sobre desempenho de produtos e regiões, permitindo
+                            análise de tendências e identificação de oportunidades de mercado.</p>
+                    </div>
+                    <div
+                        class="p-6 transition-shadow bg-white border shadow-md rounded-xl hover:shadow-xl border-slate-100">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-[#002868] p-3 rounded-full">
+                                <svg class="w-6 h-6 text-[#04f7f7]" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[#002868]">Agente Financeiro</h3>
+                        </div>
+                        <p class="mt-4 text-slate-600">Analisa custos, receitas e projeções de fluxo de caixa para
+                            facilitar a tomada de decisão estratégica e o planejamento financeiro.</p>
+                    </div>
+                    <div
+                        class="p-6 transition-shadow bg-white border shadow-md rounded-xl hover:shadow-xl border-slate-100">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-[#002868] p-3 rounded-full">
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" stroke="#04f7f7"
+                                    stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" fill="none"
+                                    color="#04f7f7">
+                                    <title id="personIconTitle">Person</title>
+                                    <path
+                                        d="M4,20 C4,17 8,17 10,15 C11,14 8,14 8,9 C8,5.667 9.333,4 12,4 C14.667,4 16,5.667 16,9 C16,14 13,14 14,15 C16,17 20,17 20,20" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[#002868]">Agente de RH</h3>
+                        </div>
+                        <p class="mt-4 text-slate-600">Apresenta insights sobre engajamento, produtividade e turnover,
+                            ajudando a formular estratégias eficazes de gestão de pessoas.</p>
+                    </div>
+                </div>
+                <div class="p-8 mt-12 bg-white border shadow-lg rounded-xl border-slate-100">
+                    <h3 class="text-2xl font-bold text-[#002868] mb-4">Explicador Inteligente de Dados</h3>
+                    <p class="mb-6 text-slate-600">Além de gerar gráficos, a IA será capaz de interpretá-los e responder
+                        perguntas contextuais. Imagine as seguintes interações:</p>
+                    <div class="space-y-4">
+                        <div class="bg-slate-100 p-4 rounded-lg border-l-4 border-[#04f7f7]">
+                            <p class="font-semibold text-[#002868]">Usuário pergunta: "Por que as vendas caíram em
+                                abril?"</p>
+                            <p class="mt-1 text-slate-600">
+                                <strong>Resposta da IA:</strong> Geração de um relatório automático com análises de
+                                produtos menos vendidos, comparação com o mesmo período do ano anterior e eventos
+                                sazonais identificados.
+                            </p>
+                        </div>
+                        <div class="bg-slate-100 p-4 rounded-lg border-l-4 border-[#04f7f7]">
+                            <p class="font-semibold text-[#002868]">Usuário pergunta: "O que explica o aumento de custos
+                                neste trimestre?"</p>
+                            <p class="mt-1 text-slate-600">
+                                <strong>Resposta da IA:</strong> Apresentação de uma análise detalhada, mostrando
+                                aumento nos custos de matéria-prima X e a contratação de novos fornecedores na categoria
+                                Y.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="arquitetura">
+                <h2 class="text-3xl font-bold text-center text-[#002868] mb-4">Arquitetura da Solução</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-center text-slate-600">Nossa arquitetura moderna combina a
+                    robustez do PHP para a aplicação web com o poder da Inteligência Artificial em Python, garantindo
+                    uma experiência de usuário unificada, segura e inteligente.</p>
+                <div class="grid grid-cols-1 gap-6 mt-10 text-left sm:grid-cols-2 lg:grid-cols-2">
+                    <div
+                        class="p-6 transition-shadow bg-white border shadow-md rounded-xl hover:shadow-xl border-slate-100">
+                        <h4 class="text-xl font-bold text-[#002868]">Interface e Aplicação Web (PHP)</h4>
+                        <ul class="mt-4 space-y-3 text-slate-600">
+                            <li>
+                                <strong class="text-slate-800">Laravel:</strong> Framework principal que estrutura toda
+                                a aplicação, gerenciando rotas, segurança e a lógica de negócio.
+                            </li>
+                            <li>
+                                <strong class="text-slate-800">Livewire:</strong> Cria uma interface dinâmica e reativa,
+                                permitindo uma experiência de usuário fluida sem a complexidade de um SPA JavaScript.
+                            </li>
+                            <li>
+                                <strong class="text-slate-800">Jetstream:</strong> Garante a autenticação segura e o
+                                gerenciamento de perfis, times e permissões de acesso. Essencial para a governança de
+                                dados.
+                            </li>
+                            <li>
+                                <strong class="text-slate-800">FluxUI/Tailwind:</strong> Componentes de UI que garantem
+                                uma interface amigável, intuitiva e consistente em toda a plataforma.
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="p-6 transition-shadow bg-white border shadow-md rounded-xl hover:shadow-xl border-slate-100">
+                        <h4 class="text-xl font-bold text-[#002868]">Inteligência Artificial e Dados (Python)</h4>
+                        <ul class="mt-4 space-y-3 text-slate-600">
+                            <li>
+                                <strong class="text-slate-800">FastAPI:</strong> Expõe os modelos de IA como uma API de
+                                alta performance, que será consumida pelo Laravel.
+                            </li>
+                            <li>
+                                <strong class="text-slate-800">LLMs (Modelos de Linguagem):</strong> O cérebro da
+                                operação, responsável por traduzir linguagem natural em queries e gerar as explicações
+                                dos dados.
+                            </li>
+                            <li>
+                                <strong class="text-slate-800">Pandas/Matplotlib:</strong> Ferramentas para manipulação,
+                                análise e geração de gráficos e visualizações de dados.
+                            </li>
+                            <li>
+                                <strong class="text-slate-800">Banco de Dados:</strong> Armazena os dados consolidados
+                                da empresa, garantindo acesso rápido e eficiente para as consultas.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="dados-externos">
+                <div class="p-8 bg-white border shadow-lg rounded-xl border-slate-100">
+                    <h2 class="text-3xl font-bold text-[#002868] mb-4">Fonte de Dados</h2>
+                    <div class="space-y-4 leading-relaxed text-slate-700">
+                        <p>Nossa solução se conectará a fontes de dados públicos para enriquecer as análises e fornecer
+                            um contexto de mercado mais amplo:</p>
+                        <div class="p-4 border-2 rounded-lg bg-slate-50 border-slate-200">
+                            <h4 class="font-bold text-lg text-[#002868]">Cadastro Nacional da Pessoa Jurídica (CNPJ)
+                            </h4>
+                            <p class="mt-1 text-slate-600">Disponibilizado pelo <a
+                                    href="https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj"
+                                    target="_blank" class="text-blue-600 hover:underline">Dados.gov.br</a>, este dataset
+                                nos permite cruzar informações de clientes e fornecedores com dados como porte da
+                                empresa, setor de atuação (CNAE), localização e situação cadastral, gerando insights
+                                competitivos valiosos. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="usuarios">
+                <div class="p-8 bg-white border shadow-lg rounded-xl border-slate-100">
+                    <h2 class="text-3xl font-bold text-[#002868] mb-6">Quem vai Usar a Solução?</h2>
+                    <p class="mb-6 text-slate-600">A plataforma foi desenhada para atender a uma vasta gama de
+                        profissionais que precisam de dados para tomar decisões, mas não possuem conhecimento técnico em
+                        programação ou SQL.</p>
+                    <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                        <div>
+                            <h4 class="font-bold text-lg text-[#002868]">Área de Vendas</h4>
+                            <ul class="mt-2 space-y-1 list-disc list-inside text-slate-700">
+                                <li>Gerentes de Vendas</li>
+                                <li>Analistas de Vendas</li>
+                                <li>Diretores Comerciais (CMO/CSO)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-[#002868]">Área Financeira</h4>
+                            <ul class="mt-2 space-y-1 list-disc list-inside text-slate-700">
+                                <li>Gerentes Financeiros</li>
+                                <li>Analistas de FP&A</li>
+                                <li>Controllers e CFOs</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-[#002868]">Recursos Humanos</h4>
+                            <ul class="mt-2 space-y-1 list-disc list-inside text-slate-700">
+                                <li>Gerentes de RH</li>
+                                <li>Analistas de People Analytics</li>
+                                <li>Diretores de RH (CHRO)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pt-6 mt-8 border-t border-slate-200">
+                        <h4 class="font-bold text-lg text-[#002868]">Governança e Níveis de Acesso</h4>
+                        <p class="mt-2 text-slate-700">Graças ao <strong class="text-slate-900">Laravel
+                                Jetstream</strong>, cada usuário terá um nível de acesso apropriado ao seu cargo. Um
+                            analista de vendas, por exemplo, visualizará apenas os dados pertinentes à sua área,
+                            garantindo a segurança e a governança da informação em toda a empresa. </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ferramentas-interativas-dashboard">
+                <h2 class="text-3xl font-bold text-center text-[#002868]">Sua Jornada de Análise em 4 Passos</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-center text-slate-600">Transforme perguntas em dashboards
+                    publicados. Cada passo constrói o próximo, de forma intuitiva e visual.</p>
+
+                <div class="mt-12 space-y-8 bg-white border shadow-lg rounded-xl border-slate-100">
+                    <div class="p-8 mt-12 ">
+                        <div>
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                    1 </div>
+                                <h3 class="text-2xl font-bold text-[#002868]"> Construtor de Consultas com IA
+                                    (Text-to-SQL) </h3>
+                            </div>
+                            <p class="mb-6 ml-14 text-slate-600"> Faça uma pergunta em português e deixe a nossa IA
+                                traduzir para uma consulta SQL, que você pode revisar e executar. </p>
+                        </div>
+                        <div class="space-y-4">
+                            <label for="natural-language-query" class="font-semibold text-slate-700">Sua
+                                pergunta:</label>
+                            <div class="flex items-center space-x-2">
+                                <input id="natural-language-query" type="text"
+                                    placeholder="Ex: Quais os 5 produtos mais vendidos no último trimestre?"
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+                                <button
+                                    class="bg-[#002868] text-white font-bold py-3 px-5 rounded-lg hover:bg-opacity-90 transition-colors">Gerar</button>
+                            </div>
+                            <div>
+                                <label class="font-semibold text-slate-700">Consulta SQL gerada pela IA:</label>
+                                <div class="p-4 mt-2 overflow-x-auto rounded-lg fake-code-editor"> SELECT
+                                    p.nome_produto, SUM(v.valor_venda) AS total_vendido FROM vendas v JOIN produtos p ON
+                                    v.id_produto = p.id WHERE v.data_venda >= '2025-04-01' GROUP BY p.nome_produto ORDER
+                                    BY total_vendido DESC LIMIT 5; </div>
+                            </div>
+                            <div class="flex justify-end space-x-3">
+                                <button
+                                    class="px-4 py-2 font-bold transition-colors rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">Testar</button>
+                                <button
+                                    class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90 transition-colors">Usar
+                                    para Gráfico</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                2</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Crie sua Visualização</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Use os dados da etapa anterior para criar um bloco de
+                            gráfico visual.</p>
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-3">
+                            <div class="md:col-span-1">
+                                <h4 class="text-lg font-bold text-slate-800">Ferramentas</h4>
+                                <div class="p-4 mt-2 space-y-4 bg-slate-100 rounded-xl">
+                                    <div>
+                                        <h5 class="font-semibold text-slate-700">Colunas Disponíveis</h5>
+                                        <div class="mt-2 space-y-2">
+                                            <div
+                                                class="p-2 bg-white border rounded-md cursor-grab active:cursor-grabbing">
+                                                nome_produto</div>
+                                            <div
+                                                class="p-2 bg-white border rounded-md cursor-grab active:cursor-grabbing">
+                                                total_vendido</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-semibold text-slate-700">Tipos de Gráfico...</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md:col-span-2">
+                                <h4 class="text-lg font-bold text-slate-800">Seu Gráfico</h4>
+                                <div class="p-4 mt-2 border-2 border-dashed rounded-xl border-slate-300">
+                                    <div class="w-full p-2 bg-white border rounded-lg">
+                                        <h5 class="font-bold text-center text-slate-800">Top 5 Produtos por Venda</h5>
+                                        <img src="https://i.imgur.com/1Z2mJ7B.png" alt="Gráfico de barras de exemplo"
+                                            class="w-full h-auto mt-2">
+                                    </div>
+                                    <div class="flex justify-end mt-4">
+                                        <button
+                                            class="flex items-center gap-2 bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20"
+                                                fill="currentColor">
+                                                <path
+                                                    d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                                            </svg> Salvar Bloco de Gráfico </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                3</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Construa e Publique seu Dashboard</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Arraste seus blocos salvos para a área de publicação e crie
+                            um relatório final.</p>
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-3">
+                            <div class="md:col-span-1">
+                                <h4 class="text-lg font-bold text-slate-800">Meus Blocos Salvos</h4>
+                                <div class="p-4 mt-2 space-y-3 bg-slate-100 rounded-xl">
+                                    <div
+                                        class="p-3 bg-white border rounded-lg shadow-sm cursor-grab active:cursor-grabbing">
+                                        <p class="font-semibold text-slate-800">Top 5 Produtos</p>
+                                        <p class="text-xs text-slate-500">Gráfico de Barras</p>
+                                    </div>
+                                    <div
+                                        class="p-3 bg-white border rounded-lg shadow-sm cursor-grab active:cursor-grabbing">
+                                        <p class="font-semibold text-slate-800">Vendas por Região</p>
+                                        <p class="text-xs text-slate-500">Gráfico de Pizza</p>
+                                    </div>
+                                    <div
+                                        class="p-3 bg-white border rounded-lg shadow-sm cursor-grab active:cursor-grabbing">
+                                        <p class="font-semibold text-slate-800">Evolução do Custo</p>
+                                        <p class="text-xs text-slate-500">Gráfico de Linhas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md:col-span-2">
+                                <h4 class="text-lg font-bold text-slate-800">Área do Dashboard</h4>
+                                <div
+                                    class="p-4 mt-2 space-y-4 bg-slate-50 border-2 border-dashed rounded-xl border-slate-300 min-h-[300px]">
+                                    <div class="p-2 bg-white border rounded-lg shadow">
+                                        <img src="https://i.imgur.com/1Z2mJ7B.png" alt="Gráfico de barras de exemplo"
+                                            class="w-full h-auto">
+                                    </div>
+                                    <div class="p-2 bg-white border rounded-lg shadow">
+                                        <p class="font-semibold text-center text-slate-800">Vendas por Região</p>
+                                        <p class="text-sm text-center text-slate-500">[Placeholder para Gráfico de
+                                            Pizza]</p>
+                                    </div>
+                                </div>
+                                <div class="flex justify-end gap-3 mt-4">
+                                    <button
+                                        class="px-4 py-2 font-bold transition-colors rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">Visualizar</button>
+                                    <button
+                                        class="bg-[#04f7f7] text-[#002868] flex items-center gap-2 px-4 py-2 font-bold transition-colors rounded-lg ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20"
+                                            fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                                                clip-rule="evenodd" />
+                                        </svg> Publicar Página </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                4</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Compartilhe ou Exporte seu Dashboard</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">
+                            Envie por e‑mail pronto para publicar ou baixe como PDF/PNG.
+                        </p>
+
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-2">
+                            <!-- Coluna: E-mail -->
+                            <div class="p-4 bg-white border rounded-xl">
+                                <h4 class="text-lg font-bold text-slate-800">Enviar por E‑mail</h4>
+                                <p class="mb-4 text-sm text-slate-500">Informe os destinatários e uma mensagem curta.
+                                    Geraremos uma imagem do dashboard automaticamente.</p>
+
+                                <form id="share-email-form" class="space-y-3">
+                                    <label class="block text-sm font-semibold">Destinatários (separe por
+                                        vírgula)</label>
+                                    <input id="email-to" type="text"
+                                        placeholder="ex: joao@empresa.com, maria@empresa.com"
+                                        class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition" />
+
+                                    <label class="block text-sm font-semibold">Assunto</label>
+                                    <input id="email-subject" type="text" placeholder="Relatório do Dashboard"
+                                        class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition" />
+
+                                    <label class="block text-sm font-semibold">Mensagem</label>
+                                    <textarea id="email-message" rows="4"
+                                        placeholder="Segue em anexo a visualização do dashboard."
+                                        class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition"></textarea>
+
+                                    <div class="flex justify-end gap-3">
+                                        <button type="button" id="btn-generate-image"
+                                            class="px-4 py-2 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                            Gerar imagem do dashboard
+                                        </button>
+                                        <button type="submit" id="btn-send-email"
+                                            class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90">
+                                            Enviar e‑mail
+                                        </button>
+                                    </div>
+
+                                    <p id="email-status" class="hidden mt-2 text-sm"></p>
+                                </form>
+                            </div>
+
+                            <!-- Coluna: Exportações -->
+                            <div class="p-4 bg-white border rounded-xl">
+                                <h4 class="text-lg font-bold text-slate-800">Exportar</h4>
+                                <p class="mb-4 text-sm text-slate-500">Baixe seu dashboard como arquivo.</p>
+
+                                <div class="flex flex-col gap-3">
+                                    <button id="btn-download-png"
+                                        class="w-full px-4 py-2 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                        Baixar como PNG
+                                    </button>
+                                    <button id="btn-download-pdf"
+                                        class="w-full bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90">
+                                        Baixar como PDF
+                                    </button>
+                                    <div class="text-xs text-slate-500">
+                                        *A exportação gera um “snapshot” da área do dashboard como está na tela.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section id="blocos-compartilhados">
+                <h2 class="text-3xl font-bold text-center text-[#002868]">Crie e Gerencie Blocos Compartilháveis</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-center text-slate-600">
+                    Crie blocos reutilizáveis (gráficos, tabelas, textos, imagens) e defina se eles serão compartilhados
+                    entre times
+                    ou privados, com controle de permissões baseado em cargo.
+                </p>
+
+                <div class="mt-12 space-y-8 bg-white border shadow-lg rounded-xl border-slate-100">
+
+                    <!-- Passo 1 -->
+                    <div class="p-8 mt-12">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                1</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Crie um Novo Bloco</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">
+                            Defina o tipo do bloco (Gráfico, Tabela, Texto, Imagem) e dê um nome para ele.
+                        </p>
+                        <div class="grid grid-cols-1 gap-6 ml-14 md:grid-cols-2">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700">Nome do Bloco</label>
+                                <input type="text" placeholder="Ex: Vendas por Região"
+                                    class="w-full p-3 mt-2 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700">Tipo do Bloco</label>
+                                <select
+                                    class="w-full p-3 mt-2 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+                                    <option>Gráfico</option>
+                                    <option>Tabela</option>
+                                    <option>Texto</option>
+                                    <option>Imagem</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 2 -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                2</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Configure o Conteúdo do Bloco</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Monte o conteúdo do bloco arrastando elementos ou inserindo
+                            dados diretamente.</p>
+                        <div class="grid grid-cols-1 gap-6 ml-14 md:grid-cols-2">
+                            <div class="p-4 bg-slate-100 rounded-xl">
+                                <p class="mb-2 font-semibold text-slate-700">Elementos disponíveis:</p>
+                                <div class="space-y-2">
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Gráfico de Barras</div>
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Tabela de Dados</div>
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Texto/Descrição</div>
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Imagem</div>
+                                </div>
+                            </div>
+                            <div class="p-4 border-2 border-dashed rounded-xl border-slate-300 min-h-[200px]">
+                                <p class="text-center text-slate-500">Arraste os elementos para montar seu bloco...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 3 -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                3</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Defina as Permissões</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Escolha se este bloco será privado, compartilhado com seu
+                            time ou acessível a cargos específicos.</p>
+                        <div class="grid grid-cols-1 gap-6 ml-14 md:grid-cols-3">
+                            <div class="p-4 bg-white border rounded-xl">
+                                <label class="flex items-center gap-2">
+                                    <input type="radio" name="permissao" class="accent-[#002868]">
+                                    <span>Privado</span>
+                                </label>
+                                <p class="mt-1 text-xs text-slate-500">Somente você poderá acessar.</p>
+                            </div>
+                            <div class="p-4 bg-white border rounded-xl">
+                                <label class="flex items-center gap-2">
+                                    <input type="radio" name="permissao" class="accent-[#002868]">
+                                    <span>Compartilhar com meu Time</span>
+                                </label>
+                                <p class="mt-1 text-xs text-slate-500">Todos do seu time terão acesso.</p>
+                            </div>
+                            <div class="p-4 bg-white border rounded-xl">
+                                <label class="flex items-center gap-2">
+                                    <input type="radio" name="permissao" class="accent-[#002868]">
+                                    <span>Restringir por Cargo</span>
+                                </label>
+                                <select
+                                    class="w-full mt-2 p-2 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868]">
+                                    <option>Gerentes</option>
+                                    <option>Diretores</option>
+                                    <option>Analistas</option>
+                                    <option>Todos os Cargos</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 4 -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                4</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Salvar e Compartilhar</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Finalize a criação do bloco e comece a utilizá-lo nos
+                            dashboards, relatórios ou page builder.</p>
+                        <div class="flex gap-6 ml-14">
+                            <button
+                                class="px-6 py-3 font-bold rounded-lg bg-[#04f7f7] text-[#002868] hover:bg-opacity-90 transition-colors">
+                                Salvar Bloco
+                            </button>
+                            <button
+                                class="px-6 py-3 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                Pré-visualizar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="page-builder-ppt-excel">
+                <h2 class="text-3xl font-bold text-center text-[#002868]">Construa Relatórios em PowerPoint ou Excel em
+                    4 Passos</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-center text-slate-600">
+                    Crie apresentações ou planilhas interativas a partir dos seus dados. Cada passo constrói o próximo,
+                    de forma prática e visual.
+                </p>
+
+                <div class="mt-12 space-y-8 bg-white border shadow-lg rounded-xl border-slate-100">
+
+                    <!-- Passo 1 -->
+                    <div class="p-8 mt-12">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                1</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Defina o Tipo de Relatório</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">
+                            Escolha se deseja gerar um arquivo de apresentação (PowerPoint) ou planilha (Excel).
+                        </p>
+                        <div class="flex gap-6 ml-14">
+                            <button
+                                class="bg-[#002868] text-white font-bold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-colors">
+                                PowerPoint (.pptx)
+                            </button>
+                            <button
+                                class="bg-[#04f7f7] text-[#002868] font-bold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-colors">
+                                Excel (.xlsx)
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Passo 2 -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                2</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Adicione Conteúdos ao Relatório</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Arraste e solte blocos de dados, gráficos e textos no seu
+                            relatório.</p>
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-3">
+                            <div class="md:col-span-1">
+                                <h4 class="text-lg font-bold text-slate-800">Blocos Disponíveis</h4>
+                                <div class="p-4 mt-2 space-y-4 bg-slate-100 rounded-xl">
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Gráfico de Vendas</div>
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Tabela Financeira</div>
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Texto Explicativo</div>
+                                    <div class="p-2 bg-white border rounded-md cursor-grab">Imagem / Logo</div>
+                                </div>
+                            </div>
+                            <div class="md:col-span-2">
+                                <h4 class="text-lg font-bold text-slate-800">Área do Relatório</h4>
+                                <div class="p-4 mt-2 border-2 border-dashed rounded-xl border-slate-300 min-h-[300px]">
+                                    <p class="text-center text-slate-500">Arraste os blocos aqui para montar seu
+                                        relatório...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 3 -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                3</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Configure Estilo e Layout</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Personalize cores, logos, fontes e layout das páginas/abas
+                            do relatório.</p>
+                        <div class="grid grid-cols-1 gap-6 ml-14 md:grid-cols-2">
+                            <div class="p-4 bg-white border rounded-xl">
+                                <label class="block font-semibold text-slate-700">Cor Primária:</label>
+                                <input type="color" value="#002868" class="w-16 h-10 mt-2 rounded-lg">
+                            </div>
+                            <div class="p-4 bg-white border rounded-xl">
+                                <label class="block font-semibold text-slate-700">Logo da Empresa:</label>
+                                <input type="file" accept="image/*" class="w-full mt-2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 4 -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                4</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Gerar e Exportar</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Clique abaixo para gerar automaticamente seu arquivo
+                            PowerPoint ou Excel.</p>
+                        <div class="flex gap-6 ml-14">
+                            <button
+                                class="px-6 py-3 font-bold rounded-lg bg-[#04f7f7] text-[#002868] hover:bg-opacity-90 transition-colors">
+                                Gerar Arquivo
+                            </button>
+                            <button
+                                class="px-6 py-3 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                Pré-visualizar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="rh-analise-noticias">
+                <h2 class="text-3xl font-bold text-center text-[#002868]">RH: Da Pergunta à Notícia em 4 Passos</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-center text-slate-600">
+                    Gere consultas, indicadores de pessoas e transforme resultados em uma notícia que pode ser enviada
+                    por e‑mail ou publicada em RSS.
+                </p>
+
+                <div class="mt-12 space-y-8 bg-white border shadow-lg rounded-xl border-slate-100">
+
+                    <!-- Passo 1: Text-to-SQL -->
+                    <div class="p-8 mt-12">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                1</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Pergunte em Português (Text‑to‑SQL)</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">
+                            Faça sua pergunta (ex.: “Qual foi o turnover por região no último trimestre?”). A IA sugere
+                            a consulta SQL para revisar e executar.
+                        </p>
+
+                        <div class="space-y-4">
+                            <label for="hr-nlq" class="font-semibold text-slate-700 ml-14">Sua pergunta:</label>
+                            <div class="flex items-center gap-2 ml-14">
+                                <input id="hr-nlq" type="text"
+                                    placeholder="Ex.: Qual o turnover por área e mês no último trimestre?"
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+                                <button id="hr-generate-sql"
+                                    class="bg-[#002868] text-white font-bold py-3 px-5 rounded-lg hover:bg-opacity-90 transition-colors">
+                                    Gerar SQL
+                                </button>
+                            </div>
+
+                            <div class="ml-14">
+                                <label class="font-semibold text-slate-700">Consulta SQL sugerida:</label>
+                                <pre id="hr-sql-output"
+                                    class="p-4 mt-2 overflow-x-auto text-sm border rounded-lg bg-slate-50"></pre>
+                            </div>
+
+                            <div class="flex justify-end gap-3 ml-14">
+                                <button id="hr-test-sql"
+                                    class="px-4 py-2 font-bold transition-colors rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                    Testar
+                                </button>
+                                <button id="hr-use-for-metrics"
+                                    class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90 transition-colors">
+                                    Usar para Indicadores
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 2: Indicadores de RH -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                2</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Visualize Indicadores de RH</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">A partir da consulta, veja métricas como Turnover, Tempo de
+                            Contratação (Time‑to‑Hire), Absenteísmo, e Engajamento.</p>
+
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-3">
+                            <!-- Cards de KPI (placeholders) -->
+                            <div class="p-5 bg-white border shadow-sm rounded-xl">
+                                <p class="text-sm text-slate-500">Turnover (últ. trim.)</p>
+                                <p id="kpi-turnover" class="mt-1 text-2xl font-extrabold text-[#002868]">—</p>
+                            </div>
+                            <div class="p-5 bg-white border shadow-sm rounded-xl">
+                                <p class="text-sm text-slate-500">Time‑to‑Hire (médio)</p>
+                                <p id="kpi-tth" class="mt-1 text-2xl font-extrabold text-[#002868]">—</p>
+                            </div>
+                            <div class="p-5 bg-white border shadow-sm rounded-xl">
+                                <p class="text-sm text-slate-500">Absenteísmo (mês)</p>
+                                <p id="kpi-abs" class="mt-1 text-2xl font-extrabold text-[#002868]">—</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 md:col-span-3">
+                            <h4 class="text-lg font-bold text-slate-800 ml-14">Resumo Tabular</h4>
+                            <div class="p-4 mt-2 overflow-x-auto bg-white border ml-14 rounded-xl">
+                                <table class="min-w-full text-sm">
+                                    <thead>
+                                        <tr class="text-left text-slate-500">
+                                            <th class="py-2 pr-6">Mês</th>
+                                            <th class="py-2 pr-6">Área</th>
+                                            <th class="py-2 pr-6">Admissões</th>
+                                            <th class="py-2 pr-6">Desligamentos</th>
+                                            <th class="py-2 pr-6">Turnover (%)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="hr-table-body" class="text-slate-700"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 3: Gerar Notícia -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                3</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Gerar Notícia de RH</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Crie um texto jornalístico com título, resumo e corpo para
+                            comunicar os principais insights.</p>
+
+                        <div class="grid grid-cols-1 gap-6 ml-14 md:grid-cols-2">
+                            <div class="space-y-3">
+                                <label class="block text-sm font-semibold">Título</label>
+                                <input id="news-title" type="text"
+                                    placeholder="Ex.: Turnover recua e tempo de contratação melhora"
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+
+                                <label class="block text-sm font-semibold">Resumo (subtítulo)</label>
+                                <textarea id="news-summary" rows="3"
+                                    placeholder="Principais números e leitura executiva..."
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition"></textarea>
+
+                                <label class="block text-sm font-semibold">Tags (opcional)</label>
+                                <input id="news-tags" type="text" placeholder="RH, Turnover, People Analytics"
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+                            </div>
+
+                            <div class="space-y-3">
+                                <label class="block text-sm font-semibold">Corpo da Notícia</label>
+                                <textarea id="news-body" rows="10"
+                                    placeholder="Escreva (ou gere) o corpo da notícia com insights, contexto e próximos passos."
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition"></textarea>
+
+                                <div class="flex justify-end gap-3">
+                                    <button id="btn-generate-news"
+                                        class="px-4 py-2 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                        Gerar notícia (automático)
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 4: Distribuir (E-mail / RSS) -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                4</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Distribuir: E‑mail ou RSS</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Envie a notícia por e‑mail ou publique como item RSS (para
+                            leitores/feed internos).</p>
+
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-2">
+                            <!-- E-mail -->
+                            <div class="p-4 bg-white border rounded-xl">
+                                <h4 class="text-lg font-bold text-slate-800">Enviar por E‑mail</h4>
+                                <p class="mb-4 text-sm text-slate-500">Preencha os campos e dispare para a lista de
+                                    destinatários.</p>
+
+                                <form id="hr-news-email-form" class="space-y-3">
+                                    <label class="block text-sm font-semibold">Destinatários (vírgula)</label>
+                                    <input id="hr-news-email-to" type="text"
+                                        placeholder="ana@empresa.com, time-rh@empresa.com"
+                                        class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+
+                                    <label class="block text-sm font-semibold">Assunto</label>
+                                    <input id="hr-news-email-subject" type="text" placeholder="Boletim de RH"
+                                        class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+
+                                    <div class="flex justify-end gap-3">
+                                        <button type="submit"
+                                            class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90">
+                                            Enviar E‑mail
+                                        </button>
+                                    </div>
+                                    <p id="hr-news-email-status" class="hidden mt-2 text-sm"></p>
+                                </form>
+                            </div>
+
+                            <!-- RSS -->
+                            <div class="p-4 bg-white border rounded-xl">
+                                <h4 class="text-lg font-bold text-slate-800">Publicar em RSS</h4>
+                                <p class="mb-4 text-sm text-slate-500">Gere o item RSS em XML. Você pode baixar o
+                                    arquivo ou enviar para o seu feed.</p>
+
+                                <div class="space-y-3">
+                                    <label class="block text-sm font-semibold">Link (slug/URL da notícia)</label>
+                                    <input id="rss-link" type="text"
+                                        placeholder="https://intranet/boletins/rh-turnover-2025q2"
+                                        class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+
+                                    <div class="flex gap-3">
+                                        <button id="btn-generate-rss"
+                                            class="px-4 py-2 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                            Gerar XML
+                                        </button>
+                                        <button id="btn-download-rss"
+                                            class="px-4 py-2 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                            Baixar XML
+                                        </button>
+                                        <button id="btn-publish-rss"
+                                            class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90">
+                                            Publicar no Feed
+                                        </button>
+                                    </div>
+
+                                    <label class="block text-sm font-semibold">Preview do XML</label>
+                                    <textarea id="rss-xml-preview" rows="10"
+                                        class="w-full p-3 text-xs border rounded-lg border-slate-300 bg-slate-50"
+                                        readonly></textarea>
+
+                                    <p id="rss-status" class="hidden mt-2 text-sm"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="marketing-anuncio">
+                <h2 class="text-3xl font-bold text-center text-[#002868]">Marketing: Gere um Anúncio em 4 Passos</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-center text-slate-600">
+                    Transforme dados de marketing em campanhas publicitárias prontas para publicar, enviar por e‑mail ou
+                    distribuir em redes sociais e RSS.
+                </p>
+
+                <div class="mt-12 space-y-8 bg-white border shadow-lg rounded-xl border-slate-100">
+
+                    <!-- Passo 1: Text-to-SQL -->
+                    <div class="p-8 mt-12">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                1</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Pergunte em Português (Text‑to‑SQL)</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">
+                            Pergunte qualquer coisa (ex.: "Qual canal trouxe mais leads no último mês?") e gere uma
+                            consulta SQL.
+                        </p>
+
+                        <div class="space-y-4">
+                            <label for="mkt-nlq" class="font-semibold text-slate-700 ml-14">Sua pergunta:</label>
+                            <div class="flex items-center gap-2 ml-14">
+                                <input id="mkt-nlq" type="text"
+                                    placeholder="Ex.: Qual canal trouxe mais leads no último mês?"
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+                                <button id="mkt-generate-sql"
+                                    class="bg-[#002868] text-white font-bold py-3 px-5 rounded-lg hover:bg-opacity-90 transition-colors">
+                                    Gerar SQL
+                                </button>
+                            </div>
+
+                            <div class="ml-14">
+                                <label class="font-semibold text-slate-700">Consulta SQL sugerida:</label>
+                                <pre id="mkt-sql-output"
+                                    class="p-4 mt-2 overflow-x-auto text-sm border rounded-lg bg-slate-50"></pre>
+                            </div>
+
+                            <div class="flex justify-end gap-3 ml-14">
+                                <button id="mkt-test-sql"
+                                    class="px-4 py-2 font-bold transition-colors rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                    Testar
+                                </button>
+                                <button id="mkt-use-for-metrics"
+                                    class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90 transition-colors">
+                                    Usar para Métricas
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 2: Métricas de Marketing -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                2</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Visualize Métricas de Marketing</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Veja métricas importantes como CTR, conversões, leads
+                            gerados e ROI.</p>
+
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-4">
+                            <!-- Cards de KPI -->
+                            <div class="p-5 bg-white border shadow-sm rounded-xl">
+                                <p class="text-sm text-slate-500">Leads Gerados</p>
+                                <p id="kpi-leads" class="mt-1 text-2xl font-extrabold text-[#002868]">—</p>
+                            </div>
+                            <div class="p-5 bg-white border shadow-sm rounded-xl">
+                                <p class="text-sm text-slate-500">CTR Médio</p>
+                                <p id="kpi-ctr" class="mt-1 text-2xl font-extrabold text-[#002868]">—</p>
+                            </div>
+                            <div class="p-5 bg-white border shadow-sm rounded-xl">
+                                <p class="text-sm text-slate-500">Conversões</p>
+                                <p id="kpi-conv" class="mt-1 text-2xl font-extrabold text-[#002868]">—</p>
+                            </div>
+                            <div class="p-5 bg-white border shadow-sm rounded-xl">
+                                <p class="text-sm text-slate-500">ROI (%)</p>
+                                <p id="kpi-roi" class="mt-1 text-2xl font-extrabold text-[#002868]">—</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 md:col-span-3">
+                            <h4 class="text-lg font-bold text-slate-800 ml-14">Resumo de Canais</h4>
+                            <div class="p-4 mt-2 overflow-x-auto bg-white border ml-14 rounded-xl">
+                                <table class="min-w-full text-sm">
+                                    <thead>
+                                        <tr class="text-left text-slate-500">
+                                            <th class="py-2 pr-6">Canal</th>
+                                            <th class="py-2 pr-6">Leads</th>
+                                            <th class="py-2 pr-6">Conversões</th>
+                                            <th class="py-2 pr-6">ROI (%)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="mkt-table-body" class="text-slate-700"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 3: Criar Anúncio -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                3</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Crie o Anúncio</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Monte um anúncio com título, imagem e chamada para ação.
+                        </p>
+
+                        <div class="grid grid-cols-1 gap-6 ml-14 md:grid-cols-2">
+                            <div class="space-y-3">
+                                <label class="block text-sm font-semibold">Título</label>
+                                <input id="ad-title" type="text"
+                                    placeholder="Ex.: Nova campanha de desconto imperdível!"
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+
+                                <label class="block text-sm font-semibold">Descrição</label>
+                                <textarea id="ad-description" rows="4"
+                                    placeholder="Descrição breve e chamativa do anúncio."
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition"></textarea>
+
+                                <label class="block text-sm font-semibold">URL Destino</label>
+                                <input id="ad-url" type="text" placeholder="https://suaempresa.com/promocao"
+                                    class="w-full p-3 border rounded-lg border-slate-300 focus:ring-2 focus:ring-[#04f7f7] focus:border-[#002868] transition">
+                            </div>
+
+                            <div class="space-y-3">
+                                <label class="block text-sm font-semibold">Imagem do Anúncio</label>
+                                <input type="file" id="ad-image"
+                                    class="w-full p-3 border rounded-lg border-slate-300 bg-slate-50" accept="image/*">
+
+                                <div id="ad-preview" class="p-4 border rounded-lg bg-slate-50">
+                                    <p class="text-sm text-center text-slate-500">Preview do anúncio aparecerá aqui</p>
+                                </div>
+
+                                <div class="flex justify-end gap-3">
+                                    <button id="btn-generate-ad"
+                                        class="px-4 py-2 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                        Gerar anúncio automático
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 4: Distribuir -->
+                    <div class="p-8 border-t border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-10 h-10 font-bold text-white bg-[#002868] rounded-full text-xl">
+                                4</div>
+                            <h3 class="text-2xl font-bold text-[#002868]">Distribuir o Anúncio</h3>
+                        </div>
+                        <p class="mb-6 ml-14 text-slate-600">Escolha como quer divulgar seu anúncio: e‑mail, RSS ou
+                            redes sociais.</p>
+
+                        <div class="grid grid-cols-1 gap-8 ml-14 md:grid-cols-3">
+                            <!-- E-mail -->
+                            <div class="p-4 bg-white border rounded-xl">
+                                <h4 class="text-lg font-bold text-slate-800">Enviar por E‑mail</h4>
+                                <p class="mb-4 text-sm text-slate-500">Informe a lista de destinatários.</p>
+                                <input id="mkt-email-list" type="text"
+                                    placeholder="ex: equipe@empresa.com, clientes@empresa.com"
+                                    class="w-full p-3 mb-3 border rounded-lg border-slate-300">
+                                <button id="mkt-send-email"
+                                    class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90 w-full">
+                                    Enviar Anúncio
+                                </button>
+                            </div>
+
+                            <!-- RSS -->
+                            <div class="p-4 bg-white border rounded-xl">
+                                <h4 class="text-lg font-bold text-slate-800">Publicar em RSS</h4>
+                                <p class="mb-4 text-sm text-slate-500">Gere e publique em um feed.</p>
+                                <button id="mkt-generate-rss"
+                                    class="w-full px-4 py-2 font-bold rounded-lg bg-slate-200 text-slate-800 hover:bg-slate-300">
+                                    Gerar RSS XML
+                                </button>
+                                <textarea id="mkt-rss-preview" rows="8"
+                                    class="w-full p-3 mt-3 text-xs border rounded-lg bg-slate-50" readonly></textarea>
+                                <button id="mkt-publish-rss"
+                                    class="bg-[#04f7f7] text-[#002868] font-bold py-2 px-4 rounded-lg hover:bg-opacity-90 w-full mt-3">
+                                    Publicar no Feed
+                                </button>
+                            </div>
+
+                            <!-- Redes sociais -->
+                            <div class="p-4 bg-white border rounded-xl">
+                                <h4 class="text-lg font-bold text-slate-800">Postar nas Redes Sociais</h4>
+                                <p class="mb-4 text-sm text-slate-500">Envie diretamente para redes sociais.</p>
+                                <button id="mkt-share-facebook"
+                                    class="w-full px-4 py-2 mb-2 font-bold text-white bg-blue-600 rounded-lg hover:bg-opacity-90">
+                                    Facebook
+                                </button>
+                                <button id="mkt-share-linkedin"
+                                    class="w-full px-4 py-2 mb-2 font-bold text-white bg-blue-800 rounded-lg hover:bg-opacity-90">
+                                    LinkedIn
+                                </button>
+                                <button id="mkt-share-instagram"
+                                    class="w-full px-4 py-2 font-bold text-white bg-pink-600 rounded-lg hover:bg-opacity-90">
+                                    Instagram
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="py-8 mt-12 text-center border-t border-slate-200">
+            <p class="text-slate-500">&copy; 2025 - Info4All | Projeto Contabilizei - Democratizando Dados com IA</p>
+        </footer>
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('menu-mobile');
+
+        toggleBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
