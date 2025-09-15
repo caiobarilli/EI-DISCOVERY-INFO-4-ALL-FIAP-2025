@@ -4,8 +4,6 @@
 
 <p align="center">Case Contabilizei – EI DISCOVERY: Democratizando Dados com IA - <b>INFO-4-ALL FIAP 2025</b></p>
 
----
-
 ## 📌 Menu
 
 1. [Objetivo da Solução](#1-objetivo-da-solução)
@@ -15,8 +13,6 @@
 5. [Buy vs. Build](#5-buy-vs-build)
 6. [Open Source vs. Proprietário](#6-open-source-vs-proprietário)
 7. [Casos de Uso e Referências](#7-casos-de-uso-e-referências)
-
----
 
 ## 1. Objetivo da Solução
 
@@ -39,15 +35,11 @@ Não é só automação de processos, nem só criação de apps → é uma **pla
 
 👉 **Resultado esperado:** democratização dos dados → qualquer pessoa acessa, entende e decide, sem travar o time técnico.
 
----
-
 ## 2. Avaliação de Mercado
 
 - Utilizar **Quadrante Mágico do Gartner** ou **Forrester Wave** para mapear líderes, desafiantes e nichos.
 - Verificar presença em **G2, Capterra** e relatórios de analistas.
 - Benchmark de players relevantes: Power BI, Tableau, Qlik, Looker, Jestor, Budibase, Appsmith, n8n.
-
----
 
 ## 3. Atributos Técnicos e Funcionais
 
@@ -58,15 +50,11 @@ Não é só automação de processos, nem só criação de apps → é uma **pla
 - Suporte a **workflows complexos**
 - Colaboração em time e versionamento
 
----
-
 ## 4. Modelo de Licenciamento e Custo
 
 - Preço por usuário, por app ou por volume de uso
 - Comparação com alternativas open source
 - Avaliar custo de suporte: Free ≠ Sustentável
-
----
 
 ## 5. Buy vs. Build
 
@@ -74,20 +62,14 @@ Não é só automação de processos, nem só criação de apps → é uma **pla
 - **Build:** flexibilidade, controle, sem lock-in
 - Avaliar **TCO** (custo total de propriedade), tempo de implementação e manutenção
 
----
-
 ## 6. Open Source vs. Proprietário
 
 - Open Source → Budibase, Appsmith, n8n
 - Proprietário → Power BI, Tableau, Jestor
 - Avaliar: comunidade ativa, documentação, customização, segurança
 
----
-
 ## 7. Casos de Uso e Referências
 
 - Estudos de caso em empresas data-driven
 - Benchmarks de setores (contabilidade, financeiro, RH, vendas)
 - Depoimentos de empresas que migraram para **self-service BI + IA**
-
----
