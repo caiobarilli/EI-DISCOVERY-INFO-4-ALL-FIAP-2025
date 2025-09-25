@@ -99,12 +99,61 @@ A seguir um panorama comparativo (visão de mercado):
 
 ## 3. Atributos Técnicos e Funcionais
 
-- Facilidade de uso (**UX/UI**)
-- Integração com APIs e conectores
-- Escalabilidade e performance
-- Segurança e compliance (**LGPD, SOC2**)
-- Suporte a **workflows complexos**
-- Colaboração em time e versionamento
+Para garantir o sucesso da plataforma de **análise de dados com IA**, alguns atributos técnicos e funcionais são essenciais:
+
+### Facilidade de uso (UX/UI)
+| Critério | Descrição |
+|---|---|
+| Interface intuitiva | Voltada para usuários não técnicos. |
+| Linguagem natural | Consultas em português natural, sem necessidade de SQL. |
+| Dashboards | Interativos e responsivos. |
+
+### Integração com APIs e conectores
+| Critério | Descrição |
+|---|---|
+| Conectores nativos | ERP, CRM, planilhas e bancos de dados. |
+| APIs abertas | Expansão e integração com sistemas legados. |
+| Suporte moderno | REST, GraphQL, Webhooks. |
+
+
+### Escalabilidade e performance
+| Critério | Descrição |
+|---|---|
+| Escalabilidade | Crescimento conforme volume de dados e usuários. |
+| Nuvem | Armazenamento em cloud e processamento distribuído. |
+| Performance | Consultas e visualizações em tempo real. |
+
+
+### Segurança e compliance
+| Critério | Descrição |
+|---|---|
+| Conformidade | LGPD, SOC2, ISO27001 (em soluções enterprise). |
+| Criptografia | Dados em repouso e em trânsito. |
+| Autenticação | SSO, OAuth. |
+| Acesso | Controle granular baseado em papéis (RBAC). |
+
+
+### Suporte a workflows complexos
+| Critério | Descrição |
+|---|---|
+| Automação | Modelagem de processos e análises recorrentes. |
+| Relatórios agendados | Geração automática e alertas inteligentes. |
+| Integração pipelines | Suporte a ETL/ELT. |
+
+
+### Colaboração em time e versionamento
+| Critério | Descrição |
+|---|---|
+| Compartilhamento | Dashboards compartilháveis em tempo real. |
+| Versionamento | Histórico de alterações e controle de versões. |
+| Colaboração | Comentários e anotações dentro da plataforma. |
+
+
+**Resumo:** Os atributos acima garantem que a solução seja intuitiva, escalável, segura e colaborativa, atendendo tanto às áreas de negócio quanto aos requisitos técnicos e regulatórios.
+
+
+
+
 
 ## 4. Modelo de Licenciamento e Custo
 
