@@ -21,8 +21,6 @@ Portanto, o problema central é:
 
 Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que precisam tomar decisões rápidas com base em dados, mas **não têm conhecimento técnico em SQL, BI ou estatística**.
 
----
-
 ### O que ouve?
 
 - “Preciso pedir relatório para o time de dados.”
@@ -31,8 +29,6 @@ Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que 
 
 💬 **Exemplo (fictício):**  
 > *“Sempre que tenho reunião com clientes, tenho que esperar o pessoal de BI montar os números. Isso me atrasa e às vezes fico sem resposta.”* – **Carlos, Gerente de Vendas**
-
----
 
 ### O que vê?
 
@@ -44,7 +40,6 @@ Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que 
 > *“Sempre que preciso de um relatório, tenho que buscar dados em vários sistemas diferentes. Muitas vezes os números não batem e isso atrasa a entrega para a diretoria.”* – **Maria, Analista Financeira**
 > 
 > *“Minha amiga trabalha em uma empresa que só digita uma pergunta no sistema e já recebe o gráfico pronto.”* – **Ana, Analista Financeira**
----
 
 ### O que fala e faz?
 
@@ -55,8 +50,6 @@ Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que 
 💬 **Exemplo (fictício):**  
 > *“Acabei fazendo no Excel, porque não dava tempo de esperar o relatório oficial.”* – **Fernanda, Coordenadora de RH**
 
----
-
 ### O que pensa e sente?
 
 - Frustração por depender de terceiros.  
@@ -65,8 +58,6 @@ Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que 
 
 💬 **Exemplo (fictício):**  
 > *“Queria poder explorar os números sozinha, sem depender de ninguém. Me sinto limitada.”* – **João, Gerente Financeiro**
-
----
 
 ### Dores (Pains)
 
@@ -77,8 +68,6 @@ Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que 
 **Funcionalidades que resolvem:**  
 - **Consultas em português natural (NLP)** → elimina barreira técnica.  
 - **Integração de múltiplas fontes** → visão unificada e confiável.  
-
----
 
 ### Ganhos (Gains)
 
