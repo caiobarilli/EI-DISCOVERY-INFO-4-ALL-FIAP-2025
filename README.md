@@ -148,12 +148,7 @@ Para garantir o sucesso da plataforma de **análise de dados com IA**, alguns at
 | Versionamento | Histórico de alterações e controle de versões. |
 | Colaboração | Comentários e anotações dentro da plataforma. |
 
-
 **Resumo:** Os atributos acima garantem que a solução seja intuitiva, escalável, segura e colaborativa, atendendo tanto às áreas de negócio quanto aos requisitos técnicos e regulatórios.
-
-
-
-
 
 ## 4. Modelo de Licenciamento e Custo
 
@@ -173,7 +168,6 @@ Ao avaliar soluções de **análise de dados com IA**, é importante considerar 
   Baseado em quantidade de consultas, processamento ou armazenamento.  
   Ex.: Looker (queries processadas), n8n (execuções de workflows).
 
-
 ### Comparação – Proprietário vs. Open Source
 
 | Critério | **Proprietário (Power BI, Tableau, Jestor)** | **Open Source (Budibase, Appsmith, n8n)** |
@@ -183,8 +177,7 @@ Ao avaliar soluções de **análise de dados com IA**, é importante considerar 
 | **Manutenção** | Inclui suporte, updates automáticos, compliance. | Depende do time interno; suporte pago via comunidade ou planos enterprise. |
 | **Flexibilidade de custo** | Menos flexível – preso ao modelo definido pelo fornecedor. | Mais flexível – custo cresce conforme uso de infra, não por licença fixa. |
 
-
-### Importante: Free ≠ Sustentável
+### Free ≠ Sustentável
 
 - **Soluções open source gratuitas** reduzem custo inicial, mas exigem investimento em:  
   - Infraestrutura (servidores, cloud).  
@@ -192,7 +185,6 @@ Ao avaliar soluções de **análise de dados com IA**, é importante considerar 
   - Eventuais planos pagos de suporte (Budibase Cloud, Appsmith Business, n8n Cloud).  
 
 - **Soluções proprietárias** já incluem segurança, suporte e SLA, mas podem gerar **vendor lock-in** e custos recorrentes mais altos.
-
 
 ### Exemplo de Cálculo Simplificado
 
@@ -247,12 +239,9 @@ A decisão entre **comprar (Buy)** ou **construir (Build)** depende de uma anál
 | **Estratégia de longo prazo** | Maior dependência do fornecedor (**vendor lock-in**). | Maior autonomia e controle sobre evolução da solução. |
 | **Nível de diferenciação desejado** | Boa escolha quando diferenciação não é estratégica (BI genérico, dashboards padrão). | Vantajoso quando a solução pode se tornar diferencial competitivo exclusivo. |
 
-
 👉 **Resumo**:  
 - Se a prioridade é **rapidez e baixo risco**, **comprar** é mais adequado.  
 - Se a prioridade é **personalização e diferenciação**, **construir** pode trazer mais valor estratégico no longo prazo.
-
-
 
 ## 6. Open Source vs. Proprietário
 
@@ -299,7 +288,6 @@ A decisão entre **comprar (Buy)** ou **construir (Build)** depende de uma anál
   - Plataforma para apps internos + BI leve.  
   - Serviço gerenciado com suporte contínuo.  
   - Bom para empresas que buscam simplicidade, mas menos robusto que Power BI/Tableau.  
-
 
 ## 7. Casos de Uso e Referências
 
