@@ -6,13 +6,22 @@
 
 ## 📌 Menu
 
+1. [Declaração de Problema &  Mapa de Empatia – Usuário da Plataforma](./MAPA_EMPATIA_DECLARACAO_DE_PROBLEMA.md)
+
 1. [Objetivo da Solução](#1-objetivo-da-solução)
-2. [Avaliação de Mercado](#2-avaliação-de-mercado)
-3. [Atributos Técnicos e Funcionais](#3-atributos-técnicos-e-funcionais)
-4. [Modelo de Licenciamento e Custo](#4-modelo-de-licenciamento-e-custo)
-5. [Buy vs. Build](#5-buy-vs-build)
-6. [Open Source vs. Proprietário](#6-open-source-vs-proprietário)
-7. [Casos de Uso e Referências](#7-casos-de-uso-e-referências)
+
+1. [Avaliação de Mercado](#2-avaliação-de-mercado)
+
+1. [Atributos Técnicos e Funcionais](#3-atributos-técnicos-e-funcionais)
+
+1. [Modelo de Licenciamento e Custo](#4-modelo-de-licenciamento-e-custo)
+1. [Buy vs. Build](#5-buy-vs-build)
+
+1. [Open Source vs. Proprietário](#6-open-source-vs-proprietário)
+
+1. [Casos de Uso e Referências](#7-casos-de-uso-e-referências)
+
+
 
 ## 1. Objetivo da Solução
 
