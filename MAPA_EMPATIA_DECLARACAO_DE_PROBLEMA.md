@@ -14,6 +14,7 @@ Esse modelo gera:
 **“Como democratizar o acesso aos dados, permitindo que qualquer usuário consiga consultar, visualizar e interpretar informações em linguagem natural, sem depender do time técnico?”**
 
 <br>
+
 # 🧩 Mapa de Empatia – Usuário da Plataforma
 
 ### Quem é o usuário?
