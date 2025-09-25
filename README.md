@@ -44,6 +44,8 @@ Não é só automação de processos, nem só criação de apps → é uma **pla
 
 ## 2. Avaliação de Mercado
 
+<p align="center"><img src="./files/quadrante_hipotetico-AvaliacaoDeMercado.png" width="400" alt="Clube Vestcasa Logo"></p>
+
 ### Posicionamento por Quadrante (Gartner / Forrester)
 
 Com base nas versões mais recentes do **Gartner Magic Quadrant para Analytics & BI** e relatórios similares, podemos posicionar alguns dos players como:
@@ -110,7 +112,6 @@ A seguir um panorama comparativo (visão de mercado):
 - Comparação com alternativas open source
 - Avaliar custo de suporte: Free ≠ Sustentável
 
-<p align="center"><img src="./files/quadrante_hipotetico-AvaliacaoDeMercado.png" width="400" alt="Clube Vestcasa Logo"></p>
 
 ## 5. Buy vs. Build
 
