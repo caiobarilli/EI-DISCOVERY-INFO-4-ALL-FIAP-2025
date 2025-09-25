@@ -21,8 +21,6 @@
 
 1. [Casos de Uso e Referências](#7-casos-de-uso-e-referências)
 
-
-
 ## 1. Objetivo da Solução
 
 **Qual problema a plataforma deve resolver?**  
@@ -46,9 +44,68 @@ Não é só automação de processos, nem só criação de apps → é uma **pla
 
 ## 2. Avaliação de Mercado
 
-- Utilizar **Quadrante Mágico do Gartner** ou **Forrester Wave** para mapear líderes, desafiantes e nichos.
-- Verificar presença em **G2, Capterra** e relatórios de analistas.
-- Benchmark de players relevantes: Power BI, Tableau, Qlik, Looker, Jestor, Budibase, Appsmith, n8n.
+### Posicionamento por Quadrante (Gartner / Forrester)
+
+Com base nas versões mais recentes do **Gartner Magic Quadrant para Analytics & BI** e relatórios similares, podemos posicionar alguns dos players como:
+
+- **Líderes**: Power BI (Microsoft) — reconhecido como líder por muitos anos consecutivos. 
+
+- **Desafiantes / Visionários**: Qlik — mantido em posição de destaque no Quadrante para Analytics/BI. 
+
+- **Nichos ou emergentes**: plataformas mais novas ou de nicho (por exemplo, Budibase, Appsmith, Jestor) — podem não aparecer em todos os relatórios de analistas, mas têm potencial de crescimento por foco em customização ou uso específico.
+
+Um relatório recente “2025 Gartner Magic Quadrant for Analytics and BI Platforms” discute movimentações de mercado e tendências. 
+
+
+### Presença e reputação em G2 / Capterra / reviews
+
+- No **G2**, o Power BI aparece como destaque em “Best Analytics Platforms”.  
+- Em rankings de BI e Analytics, ferramentas como Tableau e Power BI lideram em avaliação de usabilidade, presença de mercado e satisfação de usuários.
+- Também em análises comparativas, o Looker é citado entre as melhores plataformas analíticas, por seu modelo de dados e governança eficiente.
+
+Isso mostra que os players consolidados têm forte presença nas plataformas de avaliação de usuários, o que dá credibilidade ao posicionamento.
+
+
+### Benchmark dos Players Relevantes
+
+A seguir um panorama comparativo (visão de mercado):
+
+- **Power BI (Microsoft)**  
+  • Líder consolidado no mercado de Analytics & BI.
+  • Forte presença no G2 / rankings e ampla adoção corporativa.
+
+- **Tableau**  
+  • Histórico forte em visualizações e análise avançada.  
+  • Boa reputação em usabilidade e análise exploratória (citado em rankings de analytics). 
+  
+- **Qlik**  
+  • Presença constante nos relatórios de analistas em posição de destaque como líder ou desafiador.
+  • Plataforma madura com foco em visualização e análise associativa.
+
+- **Looker**  
+  • Reconhecido por seu modelo de dados (LookML) e arquitetura moderna.  
+  • Frequentemente listado em comparativos de plataformas analíticas em 2025. 
+
+- **Jestor**  
+  • Plataforma mais nichada, menos presente em relatórios amplos, mas com apelo para casos de uso internos, automação + BI leve.
+
+- **Budibase, Appsmith, n8n**  
+  • Tendem a aparecer mais em fóruns de desenvolvedores, GitHub e comunidades técnicas do que em relatórios formais de analistas.  
+  • Desempenho competitivo em customização, flexibilidade e integração — menos ainda no reconhecimento de mercado corporativo.
+
+
+### Exemplo de posicionamento hipotético (quadrante interno para seu case)
+
+Você pode criar um quadrante interno com eixos como **Visão / Inovação** vs **Execução / Maturidade técnica**, e posicionar:
+
+- No canto superior direito (Líder): Power BI, Tableau  
+- Em “Desafiantes / Visionários”: Qlik, Looker  
+- Em “Nicho / Emergente”: Jestor, Budibase, Appsmith, n8n  
+
+Use os dados de análises, reviews e presença de mercado para justificar cada posicionamento.
+
+
+Se quiser, posso montar para você um **quadrante visual pronto (imagem ou SVG)** com esses players para incluir no seu case, e já te passar os argumentos de cada posicionamento — quer que eu faça isso?
 
 ## 3. Atributos Técnicos e Funcionais
 
