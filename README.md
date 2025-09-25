@@ -188,13 +188,22 @@ O conceito de **Buy or Build** refere-se à decisão estratégica que uma organi
 
 ### 5.3 Critérios de Decisão
 
-A escolha entre comprar ou construir depende de fatores como:
+A decisão entre **comprar (Buy)** ou **construir (Build)** depende de uma análise estratégica considerando fatores-chave:
 
-- Urgência da necessidade
-- Complexidade da solução
-- Recursos disponíveis (tempo, equipe, orçamento)
-- Estratégia de longo prazo
-- Nível de diferenciação desejado
+| Critério | Comprar (Buy) | Construir (Build) |
+|---|---|---|
+| **Urgência da necessidade** | Ideal quando há pressão de tempo e necessidade de entrega rápida. | Recomendado quando não há urgência e é possível investir em desenvolvimento. |
+| **Complexidade da solução** | Adequado para casos de uso comuns e já atendidos por soluções de mercado. | Melhor para cenários altamente específicos ou que exigem diferenciação única. |
+| **Recursos disponíveis (tempo, equipe, orçamento)** | Requer menos recursos internos; custo mensal previsível (licenciamento). | Exige equipe técnica qualificada e orçamento inicial maior (infra + desenvolvimento). |
+| **Estratégia de longo prazo** | Maior dependência do fornecedor (**vendor lock-in**). | Maior autonomia e controle sobre evolução da solução. |
+| **Nível de diferenciação desejado** | Boa escolha quando diferenciação não é estratégica (BI genérico, dashboards padrão). | Vantajoso quando a solução pode se tornar diferencial competitivo exclusivo. |
+
+
+👉 **Resumo**:  
+- Se a prioridade é **rapidez e baixo risco**, **comprar** é mais adequado.  
+- Se a prioridade é **personalização e diferenciação**, **construir** pode trazer mais valor estratégico no longo prazo.
+
+
 
 ## 6. Open Source vs. Proprietário
 
@@ -210,7 +219,7 @@ A escolha entre comprar ou construir depende de fatores como:
 
 ## Observações por Plataforma
 
-### 🟢 **Open Source**
+### **Open Source**
 - **Budibase**  
   - Licença GPL v3, permite auto-hospedagem.  
   - Oferece RBAC, SSO gratuito e integrações com diversas fontes.  
@@ -226,7 +235,7 @@ A escolha entre comprar ou construir depende de fatores como:
   - Open source com modelo “fair code”.  
   - Ideal para integrar múltiplos sistemas sem depender de TI.  
 
-### 🔵 **Proprietário**
+### **Proprietário**
 - **Power BI**  
   - Forte integração com Microsoft (Excel, Azure, Teams).  
   - Recurso de Q&A (perguntas em linguagem natural).  
