@@ -113,7 +113,48 @@ A escolha entre comprar ou construir depende de fatores como:
 
 - Open Source → Budibase, Appsmith, n8n
 - Proprietário → Power BI, Tableau, Jestor
-- Avaliar: comunidade ativa, documentação, customização, segurança
+
+| Critério / Plataforma | **Open Source** (Budibase, Appsmith, n8n) | **Proprietário** (Power BI, Tableau, Jestor) |
+|---|---|---|
+| **Comunidade ativa** | Forte em GitHub, fóruns e Slack. Contribuições abertas e rápidas, mas dependem do engajamento da comunidade. | Grande base de usuários, ecossistema de consultorias e treinamentos. Comunidade mais centrada no fornecedor. |
+| **Documentação** | Aberta, colaborativa e acessível. Pode ter lacunas em recursos avançados (segurança, escalabilidade). | Documentação oficial robusta, guias completos, treinamentos certificados e suporte técnico dedicado. |
+| **Customização** | Alto grau: código aberto, APIs e extensões. Flexibilidade para criar módulos sob medida. | Customizações possíveis, mas limitadas ao que o vendor permite. Risco de **vendor lock-in**. |
+| **Segurança e Compliance** | Responsabilidade do usuário (deploy, patches, acessos). Oferece RBAC e SSO, mas maturidade varia. | Certificações (SOC, ISO, GDPR, LGPD), updates automáticos e auditorias frequentes. SLA de segurança incluso. |
+
+## Observações por Plataforma
+
+### 🟢 **Open Source**
+- **Budibase**  
+  - Licença GPL v3, permite auto-hospedagem.  
+  - Oferece RBAC, SSO gratuito e integrações com diversas fontes.  
+  - Recursos avançados podem exigir planos pagos.  
+
+- **Appsmith**  
+  - Forte para criar UIs customizadas e conectar APIs/BDs.  
+  - Usado como alternativa leve a BI, mas precisa de customizações.  
+  - Templates e módulos mantidos pela comunidade.  
+
+- **n8n**  
+  - Focado em automação e orquestração de fluxos.  
+  - Open source com modelo “fair code”.  
+  - Ideal para integrar múltiplos sistemas sem depender de TI.  
+
+### 🔵 **Proprietário**
+- **Power BI**  
+  - Forte integração com Microsoft (Excel, Azure, Teams).  
+  - Recurso de Q&A (perguntas em linguagem natural).  
+  - Licenciamento competitivo, mas dependente do ecossistema MS.  
+
+- **Tableau**  
+  - Visualizações avançadas e “Ask Data” (NLP).  
+  - Muito usado em empresas globais com maturidade em BI.  
+  - Custo mais elevado, mas alta confiabilidade.  
+
+- **Jestor**  
+  - Plataforma para apps internos + BI leve.  
+  - Serviço gerenciado com suporte contínuo.  
+  - Bom para empresas que buscam simplicidade, mas menos robusto que Power BI/Tableau.  
+
 
 ## 7. Casos de Uso e Referências
 
