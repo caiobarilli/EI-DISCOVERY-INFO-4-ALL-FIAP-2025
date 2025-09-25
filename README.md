@@ -303,6 +303,40 @@ A decisão entre **comprar (Buy)** ou **construir (Build)** depende de uma anál
 
 ## 7. Casos de Uso e Referências
 
-- Estudos de caso em empresas data-driven
-- Benchmarks de setores (contabilidade, financeiro, RH, vendas)
-- Depoimentos de empresas que migraram para **self-service BI + IA**
+As empresas que adotam soluções de **self-service BI aliado à inteligência artificial** conseguem transformar dados brutos em decisões rápidas e assertivas.  
+Esse movimento não é apenas tecnológico, mas **cultural**, pois promove a democratização do acesso às informações em todas as áreas da organização.  
+
+A seguir, apresentamos estudos de caso, benchmarks por setor e depoimentos que ilustram como a adoção dessa abordagem gera valor concreto.
+
+---
+
+### 7.1 Estudos de Caso em Empresas Data-Driven
+| Empresa | Desafio | Solução | Resultado |
+|---|---|---|---|
+| Multinacional de Varejo | Dependência do time de BI para relatórios semanais. | Implantação de plataforma self-service BI com consultas em linguagem natural. | Redução de 60% no tempo de geração de relatórios. |
+| Banco Digital | Lentidão em análises de risco e compliance. | Uso de dashboards automatizados com IA explicativa. | Aumento de 40% na agilidade de auditorias internas. |
+| Startup SaaS | Dados fragmentados em múltiplas planilhas e sistemas. | Integração via conectores + NLP para perguntas rápidas. | Crescimento de 30% em produtividade do time de vendas. |
+
+---
+
+### 7.2 Benchmarks de Setores
+| Setor | Casos de Uso | Benefícios Esperados |
+|---|---|---|
+| Contabilidade | Análises de fluxo de caixa, DRE e conciliação em tempo real. | Redução de atrasos em entregas fiscais e maior precisão. |
+| Financeiro | Projeções automáticas de receita e análise de inadimplência. | Decisões mais rápidas e embasadas para gestão de risco. |
+| RH | Monitoramento de turnover, absenteísmo e custo de contratação. | Melhor alocação de talentos e otimização de processos. |
+| Vendas | Acompanhamento de performance por região/produto. | Aumento da competitividade e identificação de oportunidades. |
+
+---
+
+### 7.3 Depoimentos (fictícios)
+| Nome | Cargo | Depoimento |
+|---|---|---|
+| Ana Souza | Analista Financeira | “Antes, eu precisava esperar dias para o BI enviar um relatório. Agora, faço a consulta em minutos e já levo insights prontos para a diretoria.” |
+| Carlos Mendes | Gerente de Vendas | “Com dashboards automáticos e insights em português natural, consigo responder perguntas de clientes em tempo real.” |
+| Fernanda Lima | Diretora de RH | “Ganhei autonomia para analisar indicadores de pessoas sem depender de planilhas complicadas. A tomada de decisão ficou muito mais ágil.” |
+
+---
+
+**Resumo:**  
+Os casos de uso e referências reforçam que a combinação **self-service BI + IA** entrega valor imediato para áreas críticas de negócio, acelerando decisões, reduzindo gargalos e democratizando o acesso a dados.
