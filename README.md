@@ -108,10 +108,52 @@ A seguir um panorama comparativo (visão de mercado):
 
 ## 4. Modelo de Licenciamento e Custo
 
-- Preço por usuário, por app ou por volume de uso
-- Comparação com alternativas open source
-- Avaliar custo de suporte: Free ≠ Sustentável
+Ao avaliar soluções de **análise de dados com IA**, é importante considerar como cada modelo de licenciamento impacta o custo total (TCO – *Total Cost of Ownership*) e a escalabilidade da plataforma.
 
+### Modelos de Licenciamento
+
+- **Por usuário (seat-based):**  
+  Cobrança por quantidade de usuários ativos.  
+  Ex.: Power BI (licença por usuário/mês).
+
+- **Por app ou instância:**  
+  Licenciamento vinculado a cada aplicação criada ou a ambientes de execução.  
+  Ex.: Jestor, Appsmith (versão cloud).
+
+- **Por volume de uso (consumo):**  
+  Baseado em quantidade de consultas, processamento ou armazenamento.  
+  Ex.: Looker (queries processadas), n8n (execuções de workflows).
+
+---
+
+### Comparação – Proprietário vs. Open Source
+
+| Critério | **Proprietário (Power BI, Tableau, Jestor)** | **Open Source (Budibase, Appsmith, n8n)** |
+|---|---|---|
+| **Licenciamento** | Assinatura mensal/anual por usuário, app ou volume de uso. | Gratuito para usar, com planos pagos para cloud/enterprise. |
+| **Custo inicial** | Mais previsível, mas pode escalar rápido com muitos usuários. | Baixo (self-hosted), mas exige infra + equipe técnica. |
+| **Manutenção** | Inclui suporte, updates automáticos, compliance. | Depende do time interno; suporte pago via comunidade ou planos enterprise. |
+| **Flexibilidade de custo** | Menos flexível – preso ao modelo definido pelo fornecedor. | Mais flexível – custo cresce conforme uso de infra, não por licença fixa. |
+
+---
+
+### Importante: Free ≠ Sustentável
+
+- **Soluções open source gratuitas** reduzem custo inicial, mas exigem investimento em:  
+  - Infraestrutura (servidores, cloud).  
+  - Equipe técnica para manutenção e segurança.  
+  - Eventuais planos pagos de suporte (Budibase Cloud, Appsmith Business, n8n Cloud).  
+
+- **Soluções proprietárias** já incluem segurança, suporte e SLA, mas podem gerar **vendor lock-in** e custos recorrentes mais altos.
+
+---
+
+### Exemplo de Cálculo Simplificado
+
+- **Power BI Pro**: ~US$ 10 por usuário/mês.  
+- **Tableau Creator**: ~US$ 70 por usuário/mês.  
+- **Budibase Self-hosted**: custo zero de licença, mas requer servidor (~US$ 30–50/mês em cloud) + equipe para suporte.  
+- **n8n Cloud**: planos a partir de ~US$ 20/mês (dependendo do volume de workflows).
 
 ## 5. Buy vs. Build
 
