@@ -59,12 +59,12 @@ Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que 
 
 ### O que pensa e sente?
 
-- Frustração por depender de terceiros.
-- Ansiedade em reuniões quando não tem dados confiáveis.
+- Frustração por depender de terceiros.  
+- Ansiedade em reuniões quando não tem dados confiáveis.  
 - Desejo de **ter autonomia** para explorar informações.  
 
 💬 **Exemplo (fictício):**  
-> *“Queria poder explorar os números sozinha, sem depender de ninguém. Me sinto limitada.”* – **João, Controller**
+> *“Queria poder explorar os números sozinha, sem depender de ninguém. Me sinto limitada.”* – **João, Gerente Financeiro**
 
 ---
 
