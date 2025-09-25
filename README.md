@@ -44,7 +44,7 @@ Não é só automação de processos, nem só criação de apps → é uma **pla
 
 ## 2. Avaliação de Mercado
 
-<p align="center"><img src="./files/quadrante_hipotetico-AvaliacaoDeMercado.png" width="400" alt="Clube Vestcasa Logo"></p>
+<p align="left"><img src="./files/quadrante_hipotetico-AvaliacaoDeMercado.png" width="400" alt="Clube Vestcasa Logo"></p>
 
 ### Posicionamento por Quadrante (Gartner / Forrester)
 
