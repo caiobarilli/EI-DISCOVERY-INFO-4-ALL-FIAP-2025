@@ -124,7 +124,6 @@ Ao avaliar soluções de **análise de dados com IA**, é importante considerar 
   Baseado em quantidade de consultas, processamento ou armazenamento.  
   Ex.: Looker (queries processadas), n8n (execuções de workflows).
 
----
 
 ### Comparação – Proprietário vs. Open Source
 
@@ -135,7 +134,6 @@ Ao avaliar soluções de **análise de dados com IA**, é importante considerar 
 | **Manutenção** | Inclui suporte, updates automáticos, compliance. | Depende do time interno; suporte pago via comunidade ou planos enterprise. |
 | **Flexibilidade de custo** | Menos flexível – preso ao modelo definido pelo fornecedor. | Mais flexível – custo cresce conforme uso de infra, não por licença fixa. |
 
----
 
 ### Importante: Free ≠ Sustentável
 
@@ -146,7 +144,6 @@ Ao avaliar soluções de **análise de dados com IA**, é importante considerar 
 
 - **Soluções proprietárias** já incluem segurança, suporte e SLA, mas podem gerar **vendor lock-in** e custos recorrentes mais altos.
 
----
 
 ### Exemplo de Cálculo Simplificado
 
