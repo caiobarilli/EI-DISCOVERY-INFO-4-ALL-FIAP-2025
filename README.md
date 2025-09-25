@@ -6,7 +6,7 @@
 
 ## 📌 Menu
 
-1. [Declaração de Problema &  Mapa de Empatia – Usuário da Plataforma](./MAPA_EMPATIA_DECLARACAO_DE_PROBLEMA.md)
+1. [Declaração de Problema &  Mapa de Empatia](./MAPA_EMPATIA_DECLARACAO_DE_PROBLEMA.md)
 
 1. [Objetivo da Solução](#1-objetivo-da-solução)
 

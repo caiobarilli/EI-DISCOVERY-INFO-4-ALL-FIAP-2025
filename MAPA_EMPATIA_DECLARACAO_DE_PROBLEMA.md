@@ -27,7 +27,7 @@ Portanto, o problema central é:
 
 <br>
 
-# Mapa de Empatia – Usuário da Plataforma
+# Mapa de Empatia
 
 ### Quem é o usuário?
 
