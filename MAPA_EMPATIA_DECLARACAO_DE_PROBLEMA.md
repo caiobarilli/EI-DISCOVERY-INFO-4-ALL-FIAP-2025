@@ -42,6 +42,7 @@ Profissionais de áreas de negócio (contabilidade, financeiro, RH, vendas) que 
 
 💬 **Exemplo (fictício):**  
 > *“Sempre que preciso de um relatório, tenho que buscar dados em vários sistemas diferentes. Muitas vezes os números não batem e isso atrasa a entrega para a diretoria.”* – **Maria, Analista Financeira**
+> 
 > *“Minha amiga trabalha em uma empresa que só digita uma pergunta no sistema e já recebe o gráfico pronto.”* – **Ana, Analista Financeira**
 ---
 
