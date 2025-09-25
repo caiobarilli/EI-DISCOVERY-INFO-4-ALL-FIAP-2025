@@ -94,18 +94,6 @@ A seguir um panorama comparativo (visão de mercado):
   • Desempenho competitivo em customização, flexibilidade e integração — menos ainda no reconhecimento de mercado corporativo.
 
 
-### Exemplo de posicionamento hipotético (quadrante interno para seu case)
-
-Você pode criar um quadrante interno com eixos como **Visão / Inovação** vs **Execução / Maturidade técnica**, e posicionar:
-
-- No canto superior direito (Líder): Power BI, Tableau  
-- Em “Desafiantes / Visionários”: Qlik, Looker  
-- Em “Nicho / Emergente”: Jestor, Budibase, Appsmith, n8n  
-
-Use os dados de análises, reviews e presença de mercado para justificar cada posicionamento.
-
-
-Se quiser, posso montar para você um **quadrante visual pronto (imagem ou SVG)** com esses players para incluir no seu case, e já te passar os argumentos de cada posicionamento — quer que eu faça isso?
 
 ## 3. Atributos Técnicos e Funcionais
 
@@ -121,6 +109,8 @@ Se quiser, posso montar para você um **quadrante visual pronto (imagem ou SVG)*
 - Preço por usuário, por app ou por volume de uso
 - Comparação com alternativas open source
 - Avaliar custo de suporte: Free ≠ Sustentável
+
+<p align="center"><img src="./files/quadrante_hipotetico-AvaliacaoDeMercado.png" width="400" alt="Clube Vestcasa Logo"></p>
 
 ## 5. Buy vs. Build
 
